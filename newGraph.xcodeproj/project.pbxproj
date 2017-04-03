@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		189D159E1E9183110084223B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189D159D1E9183110084223B /* main.cpp */; };
+		189D15A71E9183B90084223B /* myNewGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189D15A51E9183B90084223B /* myNewGraph.cpp */; };
+		189D15AA1E918D7B0084223B /* PathDFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189D15A81E918D7B0084223B /* PathDFS.cpp */; };
+		189D15AD1E919DBC0084223B /* PathBFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189D15AB1E919DBC0084223B /* PathBFS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		189D159A1E9183110084223B /* newGraph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newGraph; sourceTree = BUILT_PRODUCTS_DIR; };
 		189D159D1E9183110084223B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		189D15A51E9183B90084223B /* myNewGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = myNewGraph.cpp; path = ../myNewGraph.cpp; sourceTree = "<group>"; };
+		189D15A61E9183B90084223B /* myNewGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = myNewGraph.hpp; path = ../myNewGraph.hpp; sourceTree = "<group>"; };
+		189D15A81E918D7B0084223B /* PathDFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathDFS.cpp; sourceTree = "<group>"; };
+		189D15A91E918D7B0084223B /* PathDFS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PathDFS.hpp; sourceTree = "<group>"; };
+		189D15AB1E919DBC0084223B /* PathBFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathBFS.cpp; sourceTree = "<group>"; };
+		189D15AC1E919DBC0084223B /* PathBFS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PathBFS.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				189D159D1E9183110084223B /* main.cpp */,
+				189D15A61E9183B90084223B /* myNewGraph.hpp */,
+				189D15A51E9183B90084223B /* myNewGraph.cpp */,
+				189D15A91E918D7B0084223B /* PathDFS.hpp */,
+				189D15A81E918D7B0084223B /* PathDFS.cpp */,
+				189D15AC1E919DBC0084223B /* PathBFS.hpp */,
+				189D15AB1E919DBC0084223B /* PathBFS.cpp */,
 			);
 			path = newGraph;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D15AD1E919DBC0084223B /* PathBFS.cpp in Sources */,
 				189D159E1E9183110084223B /* main.cpp in Sources */,
+				189D15AA1E918D7B0084223B /* PathDFS.cpp in Sources */,
+				189D15A71E9183B90084223B /* myNewGraph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
